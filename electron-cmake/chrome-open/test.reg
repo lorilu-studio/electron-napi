@@ -1,15 +1,15 @@
 Windows Registry Editor Version 5.00
  
 [HKEY_CLASSES_ROOT\ElectronAdd]
-@="URL: ips Protocol Handler"
+@="URL: electron Protocol Handler"
 "URL Protocol"=""
  
 [HKEY_CLASSES_ROOT\ElectronAdd\DefaultIcon]
-@="D:\\Users\\luyin\\1.projects\\250304.napi_electron\\electron-napi\\electron-cmake\\dist\\win-unpacked\\electron-cmake.exe"
+@="D:\\Users\\electron-napi\\electron-cmake\\dist\\win-unpacked\\electron-cmake.exe"
  
 [HKEY_CLASSES_ROOT\ElectronAdd\Shell]
  
 [HKEY_CLASSES_ROOT\ElectronAdd\Shell\Open]
  
 [HKEY_CLASSES_ROOT\ElectronAdd\Shell\Open\Command]
-@="D:\\Users\\luyin\\1.projects\\250304.napi_electron\\electron-napi\\electron-cmake\\dist\\win-unpacked\\electron-cmake \"%1\""
+@="D:\\Users\\electron-napi\\electron-cmake\\dist\\win-unpacked\\electron-cmake \"%1\""

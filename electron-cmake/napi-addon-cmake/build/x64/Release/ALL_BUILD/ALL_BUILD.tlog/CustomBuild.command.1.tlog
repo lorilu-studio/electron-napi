@@ -1,0 +1,10 @@
+^E:\02.AREA\01.MINE-CODE\2.GITHUB-LORILU-STUDIO\ELECTRON-NAPI\ELECTRON-CMAKE\NAPI-ADDON-CMAKE\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/02.Area/01.Mine-code/2.github-lorilu-studio/electron-napi/electron-cmake/napi-addon-cmake -BE:/02.Area/01.Mine-code/2.github-lorilu-studio/electron-napi/electron-cmake/napi-addon-cmake/build --check-stamp-file E:/02.Area/01.Mine-code/2.github-lorilu-studio/electron-napi/electron-cmake/napi-addon-cmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

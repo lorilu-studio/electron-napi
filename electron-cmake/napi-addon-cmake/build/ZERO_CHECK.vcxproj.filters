@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\02.Area\01.Mine-code\2.github-lorilu-studio\electron-napi\electron-cmake\napi-addon-cmake\build\CMakeFiles\c849adb7f8b73b246747a26063592277\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCA59E88-05D6-3833-8BFA-A0EBEE681847}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

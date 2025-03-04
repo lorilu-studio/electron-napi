@@ -2,15 +2,23 @@
 
 An Electron application with Vue
 
-## Recommended IDE Setup
+## Requirements
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- Node.js v18+
+- CMake 3.10+
+- Visual Studio 2022+ (Windows)
 
-## Project Setup
+## Project Setup (Cmake)
 
 ### Install
 
 ```bash
+$ cd electron-cmake
+$ npm install
+```
+
+```bash
+$ cd napi-addon-cmake
 $ npm install
 ```
 
@@ -32,3 +40,6 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+
+## FAQ
