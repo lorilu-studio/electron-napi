@@ -1,0 +1,14 @@
+{
+  "name": "electron-nodegyp-cpp",
+  "version": "1.0.0",
+  "description": "electron-nodegyp-cpp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lorilu-studio",
+  "license": "MIT",
+  "dependencies": {
+    "node-addon-api": "^8.2.1"
+  }
+}
